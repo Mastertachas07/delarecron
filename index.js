@@ -54,3 +54,5 @@ const job = new CronJob(
 
 job.start();
 console.log("🚀 Cron job iniciado. Esperando próxima ejecución...");
+// 🔧 Ejecutar manualmente al iniciar (solo para probar)
+giveWeeklyCoins();
